@@ -4,14 +4,14 @@
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
         <img src="{{ asset('backend/assets/img/logo-ct.png')}}" class="navbar-brand-img h-100" alt="main_logo">
-        <span class="ms-1 font-weight-bold text-white">Bimble</span>
+        <span class="ms-1 font-weight-bold text-white">Bimbel</span>
       </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
-    <div class="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
+
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary" href="{{ route('kategori.index') }}">
+          <a class="nav-link text-white " href="{{ route('kategori.index') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">dashboard</i>
             </div>
@@ -20,7 +20,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link text-white " href="#">
+          <a class="nav-link text-white  " href="{{ route('pendaftar.index') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">list</i>
             </div>
@@ -36,7 +36,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="{{ route('artikel.create') }}">
+          <a class="nav-link text-white " href="{{ route('artikel.index') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">book</i>
             </div>
@@ -63,6 +63,7 @@
             <span class="nav-link-text ms-1">Register</span>
           </a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link text-white " class="dropdown-item" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -74,8 +75,10 @@
                @csrf
             </form>
         </li>
+      
       </ul>
     </div>
     </div>
 </div>
+
   </aside>

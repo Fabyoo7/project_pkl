@@ -61,7 +61,7 @@ class TestimoniController extends Controller
         $testimoni = new Testimoni;
         $testimoni->nama = $request->nama;
         $testimoni->jabatan = $request->jabatan;
-        
+
         if ($request->hasFile('cover')) {
             $img = $request->file('cover');
             $name = rand(1000, 9999) . $img->getClientOriginalName();

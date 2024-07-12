@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('artikels', function (Blueprint $table) {
             $table->increments('id');
             $table->string('judul');
-            $table->date('tanggal');
             $table->unsignedBigInteger('id_kategori');
+            $table->date('tanggal');
             $table->longtext('deskripsi');
             $table->longtext('isi');
             $table->string('cover');

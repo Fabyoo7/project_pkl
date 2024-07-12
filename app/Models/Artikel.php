@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Artikel extends Model
 {
 
-    protected $fillable = [ 'judul','tanggal','id_kategori','deskripsi','isi','cover' ];
+    protected $fillable = [ 'judul','id_kategori','tanggal','deskripsi','isi','cover' ];
     public $timestamps = true;
 
     use HasFactory;
