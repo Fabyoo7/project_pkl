@@ -92,7 +92,7 @@
                         </div>
                         <div class="content">
                             <h1>
-                                <span class="count">1230</span>+
+                                <span class="count">12300</span>+
                             </h1>
                             <p>Lulusan Terbaik</p>
                         </div>
@@ -105,7 +105,7 @@
                         </div>
                         <div class="content">
                             <h1>
-                                <span class="count">210</span>+
+                                <span class="count">22100</span>+
                             </h1>
                             <p>Ulasan Klien</p>
                         </div>
@@ -118,7 +118,7 @@
                         </div>
                         <div class="content">
                             <h1>
-                                <span class="count">1200</span>+
+                                <span class="count">12000</span>+
                             </h1>
                             <p>Penghargaan</p>
                         </div>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="content">
                             <h1>
-                                <span class="count">230</span>+
+                                <span class="count">52300</span>+
                             </h1>
                             <p>Juara Olimpiade</p>
                         </div>
@@ -168,7 +168,7 @@
                     <div class="col-lg-6">
                         <div class="section-title text-center">
                             <span class="sub-title wow fadeInUp p2-clr">
-                                TESTIMONI ARTIKEL
+                                TESTIMONI ALUMNI
                             </span>
 
                         </div>
