@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="{{ asset('fronend/assets/css/nice-select.css')}}">
     <!--<< Main.css >>-->
     <link rel="stylesheet" href="{{ asset('fronend/assets/css/main.css')}}">
-    <style>
+    <!-- <style>
         body {
             background-color: #FFF0E5;
             margin: 0;
@@ -203,7 +203,7 @@
         }
 
         
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -225,18 +225,19 @@
     @include('include.fronend.header')
     {{-- header end --}}
 
-    <br><br><br><br>
+    <br><br><br><br><br><br>
 
     <section>
         <div class="form-daftar">
-            <h4>Formulir Pendaftaran</h4>
+            
             <div class="container">
+                <h4 class="justify-content-center d-flex mt-3">Formulir Pendaftaran</h4>
                 <form action="{{ route('pendaftar.store') }}" method="post"
                     role="form"enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label for="judulArtikel"><b style="color: black;">Nama Lengkap</b></label>
-                        <input type="text" id="judulArtikel" name="nama" placeholder="Nama Lengkap" required
+                        <input class="form-control" type="text" id="judulArtikel" name="nama" placeholder="Nama Lengkap" required
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group">
@@ -264,22 +265,22 @@
                     </div>
                     <div class="form-group">
                         <label for="judulArtikel"><b style="color: black;">Asal Sekolah</b></label>
-                        <input type="text" id="judulArtikel" name="asal_sekolah" placeholder="Asal Sekolah" required
+                        <input class="form-control" type="text" id="judulArtikel" name="asal_sekolah" placeholder="Asal Sekolah" required
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group">
                         <label for="judulArtikel"><b style="color: black;">No Telp Siswa</b></label>
-                        <input type="text" id="judulArtikel" name="nomor_telp_siswa" placeholder="Nomor" required
+                        <input class="form-control" type="text" id="judulArtikel" name="nomor_telp_siswa" placeholder="Nomor" required
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group">
                         <label for="judulArtikel"><b style="color: black;">No Telp Orang Tua</b></label>
-                        <input type="text" id="judulArtikel" name="nomor_telp_ortu" placeholder="Nomor" required
+                        <input class="form-control" type="text" id="judulArtikel" name="nomor_telp_ortu" placeholder="Nomor" required
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group">
                         <label for="judulArtikel"><b style="color: black;">Email</b></label>
-                        <input type="email" id="judulArtikel" name="email" placeholder="Email" required
+                        <input class="form-control" type="email" id="judulArtikel" name="email" placeholder="Email" required
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group row" style="margin-left: 65%;">
