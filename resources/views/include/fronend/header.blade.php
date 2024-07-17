@@ -9,7 +9,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="header-right d-flex justify-content-end align-items-center">
+                    <div class="header-right">
                         <div class="mean__menu-wrapper">
                             <div class="main-menu">
                                 <nav id="mobile-menu">
@@ -29,16 +29,6 @@
                                     </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </ul>
                                 </nav>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="menu-toggle-inner d-flex gap-sm-4 gap-3 align-items-center">
-                        <a href="#0" class="search-trigger search-icon">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </a>
-                        <div class="header__hamburger d-xl-none my-auto">
-                            <div class="sidebar__toggle">
-                                <i class="fas fa-bars"></i>
                             </div>
                         </div>
                     </div>

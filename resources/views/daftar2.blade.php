@@ -284,13 +284,13 @@
                             style="color: black; padding-left: 10px;">
                     </div>
                     <div class="form-group row" style="margin-left: 65%;">
-                        <div class="col-sm-6">
-                            <button type="reset" class="button-38 " style="color: black; margin-left: 40%;">
+                        <div class="col-3" style="margin-top: 15px;">
+                            <button type="reset" class="button-38 btn btn-danger">
                                 RESET
                             </button>
                         </div>
-                        <div class="col-sm-6" style="margin-top: 15px;">
-                            <button type="submit" class="button-37 " style="color: black;">
+                        <div class="col-3" style="margin-top: 15px;">
+                            <button type="submit" class="button-37 btn btn-primary">
                                 SUBMIT
                             </button>
                         </div>
